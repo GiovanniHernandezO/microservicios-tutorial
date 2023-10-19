@@ -3,10 +3,10 @@ server:
 spring:
   cloud:
     config:
-      server: 
-        git: 
+      server:
+        git:
           default-label: config-server
           uri: https://github.com/GiovanniHernandezO/microservicios-tutorial
           search-paths: config-data
-  application: 
+  application:
     name: config-service
