@@ -5,6 +5,6 @@ eureka:
     fetchRegistry: 'true'
     registerWithEureka: 'true'
     service-url:
-      defaul-zone: http://localhost:8761/eureka
+      defaul-zone: http://localhost:8761
     instance:
       hostname: localhost
