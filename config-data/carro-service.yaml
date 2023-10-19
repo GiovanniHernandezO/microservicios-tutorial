@@ -2,8 +2,8 @@ server:
   port: 8002
 eureka:
   client:
-    fetch-registry: 'true'
-    register-with-eureka: 'true'
+    fetchRegistry: 'true'
+    registerWithEureka: 'true'
     service-url:
       defaul-zone: http://localhost:8761/eureka
     instance:
